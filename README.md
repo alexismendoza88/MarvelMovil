@@ -18,6 +18,8 @@ cd marvelApp
 
 
 2.Configurar variables de entorno
+Obtener apikeys en : "https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0%20listar"
+
 Ruta: "src/environments/environment.ts"
 <pre>
 export const environment = {
