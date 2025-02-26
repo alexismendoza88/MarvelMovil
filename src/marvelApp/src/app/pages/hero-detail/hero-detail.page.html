@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/heroes-list"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ hero?.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="hero">
+  <ion-card>
+    <img [src]="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="{{ hero.name }}">
+    <ion-card-header>
+      <ion-card-title>{{ hero.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'COMICS' | translate }}: {{ hero.comics.available }}</p>
+      <p>{{ 'SERIES' | translate }}: {{ hero.series.available }}</p>
+      <p>{{ 'STORIES' | translate }}: {{ hero.stories.available }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

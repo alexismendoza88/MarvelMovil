@@ -1,0 +1,70 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+src/marvelApp/*~
+src/marvelApp/*.sw[mnpcod]
+src/marvelApp/.tmp
+src/marvelApp/*.tmp
+src/marvelApp/*.tmp.*
+src/marvelApp/UserInterfaceState.xcuserstate
+src/marvelApp/$RECYCLE.BIN/
+
+src/marvelApp/*.log
+src/marvelApp/log.txt
+
+
+src/marvelApp/.sourcemaps
+src/marvelApp/.versions
+src/marvelApp/coverage
+
+# Ionic
+src/marvelApp/.ionic
+src/marvelApp/www
+src/marvelApp/platforms
+src/marvelApp/plugins
+
+# Compiled output
+src/marvelApp/dist
+src/marvelApp/tmp
+src/marvelApp/out-tsc
+src/marvelApp/bazel-out
+
+# Node
+src/marvelApp/node_modules
+src/marvelApp/npm-debug.log
+src/marvelApp/yarn-error.log
+
+# IDEs and editors
+src/marvelApp/.idea/
+src/marvelApp/.project
+src/marvelApp/.classpath
+src/marvelApp/.c9/
+src/marvelApp/*.launch
+src/marvelApp/.settings/
+src/marvelApp/*.sublime-project
+src/marvelApp/*.sublime-workspace
+
+# Visual Studio Code
+src/marvelApp/.vscode/*
+src/marvelApp/!.vscode/settings.json
+src/marvelApp/!.vscode/tasks.json
+src/marvelApp/!.vscode/launch.json
+src/marvelApp/!.vscode/extensions.json
+src/marvelApp/.history/*
+
+
+# Miscellaneous
+src/marvelApp/.angular
+src/marvelApp/.angular/cache
+src/marvelApp/.sass-cache/
+src/marvelApp/.nx
+src/marvelApp/.nx/cache
+src/marvelApp/connect.lock
+src/marvelApp/coverage
+src/marvelApp/libpeerconnection.log
+src/marvelApp/testem.log
+src/marvelApp/typings
+
+# System files
+src/marvelApp/.DS_Store
+src/marvelApp/Thumbs.db
