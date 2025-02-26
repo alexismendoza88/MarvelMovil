@@ -29,7 +29,7 @@ export const environment = {
   }
 };
 </pre>
-<h4>Estrucra del proyecto</h4>
+<h4>Estructura del proyecto</h4>
 <pre>
 src/
  └── app/
