@@ -2,7 +2,9 @@
 
 *Descargar Nodes (https://nodejs.org/es))
 
-*Correr comando npm install -g @ionic/cli 
+*Correr comando "npm install -g @angular/cli" (instalar angular cli)
+
+*Correr comando "npm install -g @ionic/cli"  (instalar ionic)
 
 *IDE de desarrollo visual studio code
 
